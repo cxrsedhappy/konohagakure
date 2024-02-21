@@ -8,7 +8,7 @@ from sqlalchemy.ext.declarative import declarative_base
 
 
 Base = declarative_base()
-engine = create_async_engine('sqlite+aiosqlite:////database?check_same_thread=False', echo=False)
+engine = create_async_engine('sqlite+aiosqlite:///database?check_same_thread=False', echo=False)
 session_factory = async_sessionmaker(engine, expire_on_commit=False)
 
 

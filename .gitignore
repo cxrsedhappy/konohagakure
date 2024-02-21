@@ -1,2 +1,7 @@
-.env
 .idea
+.env
+database
+__pycache__/
+cogs/__pycache__/
+data/__pycache__/
+nop-bot.zip
